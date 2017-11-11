@@ -62,7 +62,7 @@ docker in interactive mode, simply do.
 ```sh
 docker run -ti --rm \
   -v /srv/taskd:/var/taskd \
-  connectical/taskd /bin/sh
+  lyzz/rpi-taskd /bin/sh
 ```
 
 This mounts the permanent data volume `/srv/taskd` into **taskd** data
