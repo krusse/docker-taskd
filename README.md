@@ -27,7 +27,7 @@ docker run -d \
   --name=taskd \
   -p 53589:53589 \
   -v /srv/taskd:/var/taskd \
-  connectical/taskd
+  lyzz/rpi-taskd
 ```
 
 This makes a set of self signed certificates and minimal configuration to
